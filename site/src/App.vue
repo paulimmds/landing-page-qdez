@@ -46,7 +46,7 @@ export default {
   text-decoration: none;
   color: inherit;
   background-color: inherit;
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 

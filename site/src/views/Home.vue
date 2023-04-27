@@ -56,11 +56,13 @@ export default {
 
 .content h1 {
   font-size: 3em;
+  font-weight: bolder;
   text-align: center;
 }
 
 .content p {
   font-size: 1.5em;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -70,11 +72,14 @@ export default {
 }
 
 .buttons button {
-  width: 10em;
-  background-color: blue;
+  color: white;
+  font-size: 1em;
+  font-weight: bolder;
+  background-color: var(--bg-secondary-color);
   border: 2px solid white;
   border-radius: .5em;
-  padding: .3em;
+  box-shadow: 0px 0px 20px 0px white;
+  padding: .5em;
   text-align: center;
 }
 
