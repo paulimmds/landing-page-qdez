@@ -31,7 +31,7 @@ footer {
   display: flex;
   flex-flow: column;
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0;
   color: var(--txt-primary-color);
 }
