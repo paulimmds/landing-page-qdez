@@ -35,7 +35,7 @@
         <div class="parag">
           <p>Morar com a gente não é só dividir o aluguel, é dividir experiência e os momentos bons e ruins do dia a dia, 
             além das amizades que construímos ao longo do tempo.</p>
-          <p>Tradicionalmente, realizamos anualmente eventos para tanto para os ex-moradores, quanto para os parentes dos
+          <p>Tradicionalmente, realizamos anualmente eventos tanto para os ex-moradores, quanto para os parentes dos
              moradores, afim de manter a aproximação das diferentes gerações da república.</p>
         </div>
         <!-- <button>
