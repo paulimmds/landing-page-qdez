@@ -1,19 +1,19 @@
 <template>
   <footer>
-    <div id="footer-top">
-      <p>
-        Rua dos Inconfidentes, 371 | E-mail: republicaquasedez@gmail.com<br>
-        CEP: 13566-581 | São Carlos - SP
-        </p><br>   
+    <div class="icons">
+      <img src="../assets/instagram.png" alt="">
+      <img src="../assets/facebook.png" alt="">
     </div>
-    <div id="footer-low">
-      <a href="https://www.facebook.com/quasedez">
-        <img src="../assets/facebook.png" alt="Facebook" id="facebook" />
-      </a>
-      <a href="https://www.instagram.com/repquasedez/">
-        <img src="../assets/instagram.png" alt="Instagram" id="instagram" />
-      </a>
-    </div>
+    <p>
+      Telefone | Whatsapp <br>
+      Matheus – (62) 99192-1546<br>
+      Matheus – (62) 99192-1546
+    </p>
+    <p>
+      Email: repquasedez@gmail.com<br>
+      Rua dos Inconfidentes, 371<br>
+      CEP: 13566-581 | São Carlos - SP
+    </p>
   </footer>
 </template>
 
@@ -26,7 +26,33 @@ export default {
 
 
 <style scoped>
+
 footer {
+  position: static;
+  bottom: 0;
+  background-color: var(--bg-secondary-color);
+  display: flex;
+  gap: .5em;
+  width: 100%;
+  color: var(--txt-primary-color);
+  font-size: .7em;
+  justify-content: space-around;
+  padding: .5em;
+  align-items: center;
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+  width: 10%;
+}
+
+img {
+  width: 2em;
+  object-fit: cover;
+}
+/* footer {
   background-color: var(--bg-secondary-color);
   display: flex;
   flex-flow: column;
@@ -80,5 +106,5 @@ footer {
     justify-content: space-between;
     flex-direction: row;
   }
-}
+} */
 </style>

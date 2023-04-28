@@ -13,15 +13,10 @@ export default createRouter({
       name: 'Sobre Nós',
       component: () => import('../views/SobreNos.vue'),
     },
-    {
+    { 
       path: '/moradores',
       name: 'Moradores',
       component: () => import('../views/Moradores.vue'),
-    },
-    {
-      path: '/contato',
-      name: 'Contato',
-      component: () => import('../views/Contato.vue'),
     },
   ],
 });

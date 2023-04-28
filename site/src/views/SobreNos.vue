@@ -13,7 +13,7 @@
           <router-link to="/moradores">Conheça nossos moradores</router-link>  
         </button>
       </div>
-     <img src="../assets/foto-moradores.jpeg" alt="">
+     <img src="../assets/foto-churrasco-dos-pais.jpeg" alt="">
     </div>
     <div class="box two">
       <div class="content">
@@ -27,7 +27,7 @@
         </div>
       </div>
 
-      <img src="../assets/foto-moradores.jpeg" alt="">
+      <img src="../assets/foto-frente-casa.jpeg" alt="">
     </div>
     <div class="box three">
       <div class="content">
@@ -38,11 +38,11 @@
           <p>Tradicionalmente, realizamos anualmente eventos para tanto para os ex-moradores, quanto para os parentes dos
              moradores, afim de manter a aproximação das diferentes gerações da república.</p>
         </div>
-        <button>
+        <!-- <button>
           <router-link to="/contato">Entre em contato com a gente</router-link>
-        </button>
+        </button> -->
       </div>
-      <img src="../assets/foto-moradores.jpeg" alt="">
+      <img src="../assets/foto-churrasco-gramado.jpeg" alt="">
     </div>
   </div>
 </template>

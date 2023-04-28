@@ -8,12 +8,10 @@
           <button>
             <router-link to="/sobre_nos">Conheça-nos</router-link>
           </button>
-          <button>
-            <router-link to="/contato">Contato</router-link>
-          </button>
+          <!-- <button id="contact">Contato</button> -->
         </div>
       </div>
-      <img src="../assets/foto-moradores.jpeg" alt="Foto dos moradores e agregados da república.">
+      <img src="../assets/foto-churrasco-ex-moradores.jpeg" alt="Foto dos moradores e agregados da república.">
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.2154034053724!2d-47.89889952536277!3d-22.003056079901338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b871b07b8487e9%3A0x10eb80a335820816!2sRep%C3%BAblica%20Quase%20Dez!5e0!3m2!1spt-BR!2sbr!4v1682613695100!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
@@ -70,7 +68,6 @@ export default {
   display: flex;
   gap: 2em;
 }
-
 .buttons button {
   color: white;
   font-size: 1em;

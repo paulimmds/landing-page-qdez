@@ -2,7 +2,25 @@
   <div id="main-container">
     <h1>Moradores</h1>
     <div class="morador">
-      <img src="../assets/foto-moradores.jpeg" alt="">
+      <img src="../assets/moradores/foto-zangado.jpeg" alt="">
+      <div class="content">
+        <h2>Zangado</h2>
+        <p><span>Nome:</span> Eduardo</p>
+        <p><span>Curso:</span> Biologia</p>
+        <p><span>Ano:</span> 2022</p>
+      </div>
+    </div>
+    <div class="morador">
+      <img src="../assets/moradores/foto-manny.jpeg" alt="">
+      <div class="content">
+        <h2>Manny</h2>
+        <p><span>Nome:</span> Matheus</p>
+        <p><span>Curso:</span> Biologia</p>
+        <p><span>Ano:</span> 2022</p>
+      </div>
+    </div>
+    <div class="morador">
+      <img src="../assets/moradores/foto-traubim.jpeg" alt="">
       <div class="content">
         <h2>Traubim</h2>
         <p><span>Nome:</span> Paulo H.</p>
@@ -11,30 +29,48 @@
       </div>
     </div>
     <div class="morador">
-      <img src="../assets/foto-moradores.jpeg" alt="">
+      <img src="../assets/moradores/foto-balde.jpeg" alt="">
       <div class="content">
-        <h2>Traubim</h2>
-        <p><span>Nome:</span> Paulo H.</p>
-        <p><span>Curso:</span> Biotecnologia</p>
+        <h2>Balde</h2>
+        <p><span>Nome:</span> Gustavo</p>
+        <p><span>Curso:</span> Ciência da Computação</p>
         <p><span>Ano:</span> 2020</p>
       </div>
     </div>
     <div class="morador">
-      <img src="../assets/foto-moradores.jpeg" alt="">
+      <img src="../assets/moradores/foto-rato.jpeg" alt="">
       <div class="content">
-        <h2>Traubim</h2>
-        <p><span>Nome:</span> Paulo H.</p>
-        <p><span>Curso:</span> Biotecnologia</p>
+        <h2>Rato</h2>
+        <p><span>Nome:</span> Gustavo</p>
+        <p><span>Curso:</span> Engenharia Química</p>
         <p><span>Ano:</span> 2020</p>
       </div>
     </div>
     <div class="morador">
-      <img src="../assets/foto-moradores.jpeg" alt="">
+      <img src="../assets/moradores/foto-neto.jpeg" alt="">
       <div class="content">
-        <h2>Traubim</h2>
-        <p><span>Nome:</span> Paulo H.</p>
-        <p><span>Curso:</span> Biotecnologia</p>
-        <p><span>Ano:</span> 2020</p>
+        <h2>Neto</h2>
+        <p><span>Nome:</span> Lorenzo</p>
+        <p><span>Curso:</span> Gestão Ambiental</p>
+        <p><span>Ano:</span> 2019</p>
+      </div>
+    </div>
+    <div class="morador">
+      <img src="../assets/moradores/foto-piti.jpeg" alt="">
+      <div class="content">
+        <h2>Piti</h2>
+        <p><span>Nome:</span> Raul</p>
+        <p><span>Curso:</span> Engenharia Ambiental</p>
+        <p><span>Ano:</span> 2019</p>
+      </div>
+    </div>
+    <div class="morador">
+      <img src="../assets/moradores/foto-baba.jpeg" alt="">
+      <div class="content">
+        <h2>Baba</h2>
+        <p><span>Nome:</span> Victor</p>
+        <p><span>Curso:</span> Engenharia de Produção</p>
+        <p><span>Ano:</span> 2019</p>
       </div>
     </div>
   </div>
@@ -94,6 +130,7 @@ h1 {
   flex-direction: column;
   gap: .5em;
   align-items: center;
+  max-width: 60%  ;
 }
 
 .content span {
@@ -107,7 +144,8 @@ h2 {
 }
 
 img {
-  max-width: 40%;
+  max-width: 10em;
+  max-height: 10em;
   flex-grow: 1;
   object-fit: cover;
 }

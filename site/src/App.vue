@@ -53,15 +53,6 @@ export default {
 html {
   background-image: var(--background-image);
   background-attachment: fixed;
-  width: 100%;
-  height: 100%;
 }
 
-.yellow {
-  color: yellow;
-}
-
-.gray {
-  color: gray;
-}
 </style>
