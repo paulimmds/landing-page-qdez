@@ -1,13 +1,13 @@
 <template>
   <footer>
     <div class="icons">
-      <img src="../assets/instagram.png" alt="">
-      <img src="../assets/facebook.png" alt="">
+      <a href="https://www.instagram.com/repquasedez/" target="_blank"><img src="../assets/instagram.png" alt=""></a>
+      <a href="https://www.facebook.com/quasedez" target="_blank"><img src="../assets/facebook.png" alt=""></a>
     </div>
     <p>
       Telefone | Whatsapp <br>
-      Matheus – (62) 99192-1546<br>
-      Matheus – (62) 99192-1546
+      Matheus – (11) 99739-6179<br>
+      Eduardo – (11) 97724-2291
     </p>
     <p>
       Email: repquasedez@gmail.com<br>
