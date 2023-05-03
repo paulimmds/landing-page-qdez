@@ -33,9 +33,9 @@ footer {
   background-color: var(--bg-secondary-color);
   display: flex;
   gap: .5em;
-  width: 100%;
+  height: 15vh;
   color: var(--txt-primary-color);
-  font-size: .7em;
+  font-size: 1.2em;
   justify-content: space-around;
   padding: .5em;
   align-items: center;
