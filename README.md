@@ -16,6 +16,6 @@
     
 - Paulo Henrique Marçal:
     - https://github.com/paulimmds
-    -
-    -
+    - https://www.linkedin.com/in/paulo-mds/
+    - paulo_henriquemds@outlook.com
 <br><br><br>

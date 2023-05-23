@@ -17,7 +17,7 @@
     </div>
     <div class="box two">
       <div class="content">
-        <h1>NOSSA CASA</h1>
+        <h2>NOSSA CASA</h2>
         <div class="parag">
           <p>Estamos localizados na região universitária da cidade, bem próximos a USP, pontos de ônibus, supermercados, 
             farmácias, postos de gasolina e restaurantes.</p>
@@ -31,7 +31,7 @@
     </div>
     <div class="box three">
       <div class="content">
-        <h1>TRADIÇÃO</h1>
+        <h2>TRADIÇÃO</h2>
         <div class="parag">
           <p>Morar com a gente não é só dividir o aluguel, é dividir experiência e os momentos bons e ruins do dia a dia, 
             além das amizades que construímos ao longo do tempo.</p>
@@ -75,7 +75,7 @@ export default {
   padding-top: 3em;
 }
 
-h1 {
+h1, h2 {
   font-size: 3em;
   text-align: center;
   align-self: center;

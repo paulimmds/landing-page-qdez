@@ -18,6 +18,10 @@ export default {
 
 <style scoped>
 
+#categories-container{
+  width: 100%;
+}
+
 #categories-list {
   background-color: var(--bg-secondary-color);
   height: 50px;
@@ -28,10 +32,11 @@ export default {
   width: 100%;
 }
 
+#categories-container {
+  width: 100%;
+}
+
 #categories-list .list {
-  display: flex;
-  justify-content: center;
-  width: calc(100% / 3);
   text-transform: uppercase;
   font-size: 1em;
   font-weight: bold;

@@ -53,8 +53,8 @@ export default {
 html {
   background-image: var(--background-image);
   background-attachment: fixed;
-  height: 100vh;
-  min-width: 600px;
+  height: 100%;
+  width: 100%;
 }
 
 </style>
